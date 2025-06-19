@@ -1,5 +1,5 @@
 import React from "react";
-
+import imag from "./assets/images/MeImg.png";
 function AboutMe() {
   return (
     <>
@@ -32,11 +32,7 @@ function AboutMe() {
           </div>
           <div className="text-white text-3xl font-light">
             <div className="w-fit border-gray-700 rounded-full bg-[#2e2e2e62] shadow-[0px_0px_30px_#999999]">
-              <img
-                src="src/assets/images/MeImg.png"
-                alt="From public"
-                className="w-[200px] rounded-full"
-              />
+              <img src={imag} className="w-[200px] rounded-full" />
             </div>
           </div>
         </div>

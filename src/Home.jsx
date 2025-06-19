@@ -1,5 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import imag from "./assets/images/thoughtworks-gif_dribbble.gif";
 
 function home() {
   const [text] = useTypewriter({
@@ -59,11 +60,7 @@ function home() {
           </div>
         </div>
         <div className="text-white text-3xl font-light max-w-md">
-          <img
-            src="src/assets/images/thoughtworks-gif_dribbble.gif"
-            alt="from public"
-            className="w-full rounded-xl"
-          />
+          <img src={imag} className="w-full rounded-xl" />
         </div>
       </div>
     </>
