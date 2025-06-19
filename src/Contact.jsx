@@ -81,7 +81,7 @@ function Contact() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/neemo_bh/"
                   className="hover:text-gray-500 hover:underline underline-offset-4 transition-all duration-200"
                 >
                   Instagram

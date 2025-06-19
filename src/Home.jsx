@@ -11,12 +11,12 @@ function home() {
     <>
       {/* Home Section */}
       <div
-        className="w-full mt-40 flex flex-col md:flex-row items-center justify-center text-2xl gap-10 md:gap-28 py-10 px-4"
+        className="w-full mt-30 flex flex-col md:flex-row items-center justify-center text-2xl gap-10 md:gap-28 py-10 px-4"
         id="Home"
       >
         <div className="space-y-4">
           <a
-            href=""
+            href="https://na3em17.github.io/My-Profiles/"
             className=" bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]"
           >
             My Profiles
@@ -54,9 +54,12 @@ function home() {
             >
               Projects
             </button>
-            <button className="bg-gray-600 px-4 py-2 rounded-sm shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
+            <a
+              href="#Contact"
+              className="bg-gray-600 px-4 py-2 rounded-sm shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]"
+            >
               Contact
-            </button>
+            </a>
           </div>
         </div>
         <div className="text-white text-3xl font-light max-w-md">
