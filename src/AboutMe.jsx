@@ -31,9 +31,9 @@ function AboutMe() {
             <div className="flex gap-4 mt-4 flex-wrap">
               <button
                 data-aos="fade-left"
-                onClick={window.open(
-                  "https://github.com/Na3eM17?tab=repositories"
-                )}
+                onClick={() =>
+                  window.open("https://github.com/Na3eM17?tab=repositories")
+                }
                 className="bg-transparent border border-gray-500 text-gray-500 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]"
               >
                 View Projects
