@@ -16,7 +16,9 @@ function home() {
       >
         <div className="space-y-4">
           <button
-            href="https://na3em17.github.io/My-Profiles/"
+            onClick={() =>
+              window.open("https://na3em17.github.io/My-Profiles/")
+            }
             className=" bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]"
           >
             My Profiles

@@ -22,7 +22,7 @@ function header() {
         </ul>
       </div>
       <nav class="navbar">
-        <div class="logo">MY_PORTIFILIO</div>
+        <div class="logo">MY_PORTFILIO</div>
 
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-btn">
