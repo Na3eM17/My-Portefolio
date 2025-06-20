@@ -20,7 +20,7 @@ function project() {
         >
           <img src={imag} className="rounded-lg object-cover" />
           <h1 className="text-center text-2xl font-semibold mt-4">project 1</h1>
-          <p className="text-gray-300 mt-2">info of project</p>
+          <p className="text-gray-300 mt-2">Fech API Project</p>
           <a href="#" className="text-gray-500 hover:underline mt-3">
             go to project →
           </a>
@@ -33,7 +33,7 @@ function project() {
         >
           <img src={imag2} className="rounded-lg object-cover" />
           <h1 className="text-center text-2xl font-semibold mt-4">project 2</h1>
-          <p className="text-gray-300 mt-2">info of project</p>
+          <p className="text-gray-300 mt-2">shop front end project</p>
           <a href="#" className="text-gray-500 hover:underline mt-3">
             go to project →
           </a>
@@ -46,7 +46,7 @@ function project() {
         >
           <img src={imag3} className="rounded-lg object-cover" />
           <h1 className="text-center text-2xl font-semibold mt-4">project 3</h1>
-          <p className="text-gray-300 mt-2">info of project</p>
+          <p className="text-gray-300 mt-2">passwordgeneratort</p>
           <a href="#" className="text-gray-500 hover:underline mt-3">
             go to project →
           </a>
@@ -57,7 +57,7 @@ function project() {
         >
           <img src={imag4} className="rounded-lg object-cover" />
           <h1 className="text-center text-2xl font-semibold mt-4">project 4</h1>
-          <p className="text-gray-300 mt-2">info of project</p>
+          <p className="text-gray-300 mt-2">Abstract project</p>
           <a href="#" className="text-gray-500 hover:underline mt-3">
             go to project →
           </a>
@@ -79,8 +79,10 @@ function project() {
           className="flex flex-col justify-center w-full sm:w-[300px] md:w-[350px] lg:w-[400px] bg-gray-900 p-6 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.7)] hover:shadow-[0_15px_45px_rgba(255,255,255,0.1)] hover:scale-105 transition duration-300 ease-in-out"
         >
           <img src={imag6} className="rounded-lg object-cover" />
-          <h1 className="text-center text-2xl font-semibold mt-4">project 6</h1>
-          <p className="text-gray-300 mt-2">info of project</p>
+          <h1 className="text-center text-2xl font-semibold mt-4">
+            art gallery design
+          </h1>
+          <p className="text-gray-300 mt-2">Music Page</p>
           <a href="#" className="text-gray-500 hover:underline mt-3">
             go to project →
           </a>

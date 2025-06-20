@@ -107,6 +107,54 @@
   transform: rotate(-45deg) translate(9px, -10px);
 }
 
+button {
+  position: relative;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, black 3%, rgb(69, 69, 69) 70%);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+.linkMbile {
+  width: 100%;
+}
+.linkMbile a {
+  color: rgb(255, 255, 255);
+}
+.linkMbile a:hover {
+  color: #797979;
+  text-decoration: underline;
+}
+button::before,
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: -1;
+  transition: all 0.7s ease;
+}
+
+button:hover::before {
+  left: 0;
+}
+
+button:hover::after {
+  left: 0;
+}
+
+button:hover {
+  color: #ffffff;
+  box-shadow: 0 0 20px 0 white;
+}
+
 /* Hide nav on large screen if using alternate layout */
 @media screen and (min-width: 767px) {
   .navbar {

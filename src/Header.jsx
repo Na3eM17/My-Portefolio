@@ -22,7 +22,7 @@ function header() {
         </ul>
       </div>
       <nav class="navbar">
-        <div class="logo">logo</div>
+        <div class="logo">MY_PORTIFILIO</div>
 
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-btn">
@@ -31,10 +31,10 @@ function header() {
           <span></span>
         </label>
         <div class="menu">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Project">Projects</a>
+          <a href="#Contact">Contact</a>
         </div>
       </nav>
     </>

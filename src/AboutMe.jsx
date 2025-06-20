@@ -1,6 +1,28 @@
 import React from "react";
 import imag from "./assets/images/MeImg.png";
+import axios from "axios";
 function AboutMe() {
+  const downloadWordFile = async () => {
+    try {
+      const response = await axios.get(
+        "https://my-portefolio-fawn.vercel.app/file.docx",
+        {
+          responseType: "blob",
+        }
+      );
+
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "myfile.docx");
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    } catch (error) {
+      console.error("Download failed", error);
+    }
+  };
+
   return (
     <>
       {/* About Me Section */}
@@ -22,10 +44,17 @@ function AboutMe() {
               web interfaces.
             </p>
             <div className="flex gap-4 mt-4 flex-wrap">
-              <button className="bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
-                Download CV
-              </button>
-              <button className="bg-transparent border border-gray-500 text-gray-500 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]">
+              <a href="public/CV.docx" download>
+                <button className="bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
+                  Download CV
+                </button>
+              </a>
+              <button
+                onClick={window.open(
+                  "https://github.com/Na3eM17?tab=repositories"
+                )}
+                className="bg-transparent border border-gray-500 text-gray-500 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]"
+              >
                 View Projects
               </button>
             </div>
@@ -42,12 +71,12 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        <div className="flex  justify-center gap-6 mt-6 ">
-          <div className="text-center bg-[rgba(175,175,175,0.1)] mt-20 px-11 py-7 h-fit rounded-2xl shadow-[0px_0px_15px_#999999] md:w-[300px] w-[90%]">
+        <div className="flex flex-col lg:flex-row justify-center gap-6  mt-12 ">
+          <div className="text-center bg-[rgba(175,175,175,0.1)]  px-11 py-7 h-44 mdg:h-fit rounded-2xl shadow-[0px_0px_15px_#999999] md:w-[300px] w-[90%]">
             <div className="text-gray-500 text-3xl">🔥</div>
             <p className="text-gray-400">3+ Years Experience</p>
           </div>
-          <div className="text-center bg-[rgba(175,175,175,0.1)] mt-20 px-11 py-7 h-fit rounded-2xl shadow-[0px_0px_15px_#999999] md:w-[300px] w-[90%]">
+          <div className="text-center bg-[rgba(175,175,175,0.1)]  px-11 py-7 h-44 mdg:h-fit rounded-2xl shadow-[0px_0px_15px_#999999] md:w-[300px] w-[90%]">
             <div className="text-gray-500 text-3xl">🚀</div>
             <p className="text-gray-400 ">10+ Projects Completed</p>
           </div>

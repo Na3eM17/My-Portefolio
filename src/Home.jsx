@@ -15,12 +15,12 @@ function home() {
         id="Home"
       >
         <div className="space-y-4">
-          <a
+          <button
             href="https://na3em17.github.io/My-Profiles/"
             className=" bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]"
           >
             My Profiles
-          </a>
+          </button>
           <h1 className=" mt-6 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-white">
             WELCOME TO
           </h1>
@@ -39,9 +39,9 @@ function home() {
           <ul className="flex gap-4 flex-wrap">
             {["React", "Flutter", "Tailwind", "ASP.NET"].map((tech) => (
               <li key={tech}>
-                <button className="border border-gray-500 text-gray-500 px-3 py-1 rounded transition shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]">
+                <a className="border border-gray-500 text-gray-500 px-3 py-1 rounded transition shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]">
                   {tech}
-                </button>
+                </a>
               </li>
             ))}
           </ul>
@@ -54,11 +54,10 @@ function home() {
             >
               Projects
             </button>
-            <a
-              href="#Contact"
-              className="bg-gray-600 px-4 py-2 rounded-sm shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]"
-            >
-              Contact
+            <a href="#Contact">
+              <button className="bg-gray-600 px-4 py-2 rounded-sm shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
+                Contact
+              </button>
             </a>
           </div>
         </div>
