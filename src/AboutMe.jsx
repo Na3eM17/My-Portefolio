@@ -5,7 +5,7 @@ function AboutMe() {
   const downloadWordFile = async () => {
     try {
       const response = await axios.get(
-        "https://my-portefolio-fawn.vercel.app/file.docx",
+        "https://my-portefolio-fawn.vercel.app/public/CV.docx",
         {
           responseType: "blob",
         }
