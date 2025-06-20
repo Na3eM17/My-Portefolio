@@ -23,11 +23,6 @@ function AboutMe() {
               web interfaces.
             </p>
             <div className="flex gap-4 mt-4 flex-wrap">
-              <a href="src/CV.html">
-                <button className="bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
-                  Go to CV
-                </button>
-              </a>
               <button
                 onClick={window.open(
                   "https://github.com/Na3eM17?tab=repositories"
