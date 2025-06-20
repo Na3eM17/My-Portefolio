@@ -28,7 +28,10 @@ function Contact() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
           {/* Contact Form */}
           <form ref={form} onSubmit={sendEmail} className="w-full">
-            <div className="flex flex-col gap-4 w-full lg:w-[600px]  border p-14 rounded-xl border-gray-500">
+            <div
+              data-aos="fade-right"
+              className="flex flex-col gap-4 w-full lg:w-[600px]  border p-14 rounded-xl border-gray-500"
+            >
               <h2 className="text-3xl font-bold text-gray-500 mb-2">
                 Get in Touch
               </h2>
@@ -59,7 +62,7 @@ function Contact() {
           </form>
 
           {/* Profile Links */}
-          <div className="linkMbile">
+          <div data-aos="fade-right" className="linkMbile">
             <div className="w-full text-center md:text-right">
               <h2 className="text-2xl font-semibold mb-4 text-gray-500">
                 My Profiles
