@@ -2,27 +2,6 @@ import React from "react";
 import imag from "./assets/images/MeImg.png";
 import axios from "axios";
 function AboutMe() {
-  const downloadWordFile = async () => {
-    try {
-      const response = await axios.get(
-        "https://my-portefolio-fawn.vercel.app/public/CV.docx",
-        {
-          responseType: "blob",
-        }
-      );
-
-      const url = window.URL.createObjectURL(new Blob([response.data]));
-      const link = document.createElement("a");
-      link.href = url;
-      link.setAttribute("download", "myfile.docx");
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
-    } catch (error) {
-      console.error("Download failed", error);
-    }
-  };
-
   return (
     <>
       {/* About Me Section */}
@@ -44,7 +23,7 @@ function AboutMe() {
               web interfaces.
             </p>
             <div className="flex gap-4 mt-4 flex-wrap">
-              <a href="public/CV.docx" download>
+              <a href="../public/CV.docx" download>
                 <button className="bg-gray-600 px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:bg-black hover:border hover:border-gray-500 hover:text-gray-500 hover:shadow-[0_0_50px_#999999]">
                   Download CV
                 </button>
