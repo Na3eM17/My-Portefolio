@@ -1,7 +1,17 @@
 import React from "react";
 import imag from "./assets/images/MeImg.png";
 import axios from "axios";
+import CV from "./assets/CV.pdf";
+
 function AboutMe() {
+
+const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = CV;
+    link.download = "CV.pdf";
+    link.click();
+  };
+
   return (
     <>
       {/* About Me Section */}
@@ -15,6 +25,13 @@ function AboutMe() {
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-44">
           <div className="text-left space-y-2 max-w-md">
+            <button
+            data-aos="fade-right"
+                onClick={handleDownload}
+                className="bg-blue-600 text-white px-4 py-2 rounded shadow-[0_0_10px_#999999] hover:text-white hover:border-white hover:shadow-[0_0_50px_#999999]"
+                >
+                  My CV
+            </button>
             <h1 data-aos="fade-right" className="text-2xl">
               Hello I'm
             </h1>
