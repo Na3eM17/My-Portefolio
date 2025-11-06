@@ -1,7 +1,7 @@
 import React from "react";
 import imag from "./assets/images/MeImg.png";
 import axios from "axios";
-import CV from "./assets/MYCV.pdf";
+import CV from "./assets/Naeem_Alhindi_CV.pdf";
 
 function AboutMe() {
 
