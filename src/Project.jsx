@@ -29,7 +29,7 @@ function project() {
         <div
           data-aos="fade-left"
           onClick={() =>
-            window.open("https://passwordgenerator-tau-dusky.vercel.app/")
+            window.open("https://na3em17.github.io/FrontendProject/")
           }
           className="flex flex-col justify-center w-full sm:w-[300px] md:w-[350px] lg:w-[400px] bg-gray-900 p-6 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.7)] hover:shadow-[0_15px_45px_rgba(255,255,255,0.1)] hover:scale-105 transition duration-300 ease-in-out"
         >
@@ -43,7 +43,7 @@ function project() {
         <div
           data-aos="fade-right"
           onClick={() =>
-            window.open("https://na3em17.github.io/FrontendProject/")
+            window.open("https://passwordgenerator-tau-dusky.vercel.app/")
           }
           className="flex flex-col justify-center w-full sm:w-[300px] md:w-[350px] lg:w-[400px] bg-gray-900 p-6 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.7)] hover:shadow-[0_15px_45px_rgba(255,255,255,0.1)] hover:scale-105 transition duration-300 ease-in-out"
         >
