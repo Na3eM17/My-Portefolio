@@ -18,22 +18,22 @@ function Header() {
         <div className="text-gray-500 font-bold">MY-PORTIFOLIO</div>
         <ul className="flex gap-6 h-full text-center">
           <li className="hover:text-gray-500 cursor-pointer flex items-center h-full hover:border-b-4 hover:border-gray-500 ">
-            <a data-aos="fade-up-right" href="#Home">
+            <a data-aos="fade-up-up" href="#Home">
               Home
             </a>
           </li>
           <li className="hover:text-gray-500 cursor-pointer flex items-center h-full hover:border-b-4 hover:border-gray-500 ">
-            <a data-aos="fade-up-right" href="#About">
+            <a data-aos="fade-up-up" href="#About">
               About
             </a>
           </li>
           <li className="hover:text-gray-500 cursor-pointer flex items-center h-full hover:border-b-4 hover:border-gray-500 ">
-            <a data-aos="fade-up-right" href="#Project">
+            <a data-aos="fade-up-up" href="#Project">
               Project
             </a>
           </li>
           <li className="hover:text-gray-500 cursor-pointer flex items-center h-full hover:border-b-4 hover:border-gray-500 ">
-            <a data-aos="fade-up-right" href="#Contact">
+            <a data-aos="fade-up-up" href="#Contact">
               Contact
             </a>
           </li>

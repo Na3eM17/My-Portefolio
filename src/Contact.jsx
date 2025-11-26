@@ -29,7 +29,7 @@ function Contact() {
           {/* Contact Form */}
           <form ref={form} onSubmit={sendEmail} className="w-full">
             <div
-              data-aos="fade-right"
+              data-aos="fade-bottom"
               className="flex flex-col gap-4 w-full lg:w-[600px]  border p-14 rounded-xl border-gray-500"
             >
               <h2 className="text-3xl font-bold text-gray-500 mb-2">
@@ -62,8 +62,8 @@ function Contact() {
           </form>
 
           {/* Profile Links */}
-          <div data-aos="fade-right" className="linkMbile">
-            <div className="w-full text-center md:text-right">
+          <div data-aos="fade-bottom" className="linkMbile">
+            <div className="w-full text-center md:text-bottom">
               <h2 className="text-2xl font-semibold mb-4 text-gray-500">
                 My Profiles
               </h2>
@@ -99,7 +99,7 @@ function Contact() {
 
         {/* Footer Bottom */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} My Website. All rights reserved.
+          © {new Date().getFullYear()} My Website. All bottoms reserved.
         </div>
       </div>
     </>

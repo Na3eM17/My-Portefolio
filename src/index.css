@@ -25,6 +25,16 @@
   border-bottom: 1px solid #555;
 }
 
+.swiper-pagination-bullet {
+  background: gray !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: gray !important;
+}
+
+
 .logo {
   font-size: 24px;
   color: gray;
