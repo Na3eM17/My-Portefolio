@@ -31,6 +31,7 @@ function Project() {
     <div
       className="w-[90%] mx-auto md:p-10 min-h-[400px] bg-gradient-to-br from-black via-gray-900 to-black text-white rounded-2xl shadow-2xl"
       id="Project"
+      data-aos="fade-up"
     >
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

@@ -12,7 +12,7 @@ function Header() {
     <>
       {/* Desktop Nav Bar */}
       <div
-        className="md:flex fixed bg-black w-full h-[100px] hidden items-center z-20 justify-between px-5 text-2xl border-b border-gray-500 shadow-md"
+        className="md:flex fixed bg-black w-full h-[55px] lg:h-[100px] hidden items-center z-20 justify-between px-5 text-2xl border-b border-gray-500 shadow-md"
         data-aos="fade-down"
       >
         <div className="text-gray-500 font-bold">MY-PORTIFOLIO</div>
